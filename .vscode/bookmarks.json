@@ -1,0 +1,24 @@
+{
+	"files": [
+		{
+			"path": "App/Containers/CreateOdontogram/index.tsx",
+			"bookmarks": [
+				{
+					"line": 417,
+					"column": 42,
+					"label": "/* TODO :: Workaround iOS, melhorar quando possível */"
+				},
+				{
+					"line": 468,
+					"column": 43,
+					"label": "/* TODO :: Workaround iOS, melhorar quando possível */"
+				},
+				{
+					"line": 476,
+					"column": 36,
+					"label": "/* TODO :: Workaround iOS, melhorar quando possível */"
+				}
+			]
+		}
+	]
+}

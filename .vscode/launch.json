@@ -1,0 +1,134 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+
+        {
+            "name": "Debug Android Production",
+            "program": "${workspaceRoot}/.vscode/launchReactNative.js",
+            "type": "reactnative",
+            "request": "launch",
+            "platform": "android",
+            "sourceMaps": true,
+            "outDir": "${workspaceRoot}/.vscode/.react",
+            "runArguments": ["--variant=productionDebug", "--appIdSuffix=production"]
+        },
+        {
+            "name": "Debug Android Staging",
+            "program": "${workspaceRoot}/.vscode/launchReactNative.js",
+            "type": "reactnative",
+            "request": "launch",
+            "platform": "android",
+            "sourceMaps": true,
+            "outDir": "${workspaceRoot}/.vscode/.react",
+            "runArguments": ["--variant=stagingDebug", "--appIdSuffix=staging"]
+        },
+        {
+            "name": "Debug Android Development",
+            "program": "${workspaceRoot}/.vscode/launchReactNative.js",
+            "type": "reactnative",
+            "request": "launch",
+            "platform": "android",
+            "sourceMaps": true,
+            "outDir": "${workspaceRoot}/.vscode/.react",
+            "runArguments": ["--variant=developmentDebug", "--appIdSuffix=development"]
+        },
+        {
+            "name": "Debug iOS Production",
+            "cwd": "${workspaceFolder}",
+            "type": "reactnative",
+            "request": "launch",
+            "platform": "ios",
+            "sourceMaps": true,
+            "outDir": "${workspaceRoot}/.vscode/.react",
+            "runArguments": ["--simulator=iPhone 11", "--scheme=BatavoSeeds"],
+            "preLaunchTask": "Configure Environment"
+        },
+        {
+            "name": "Debug iOS Internal",
+            "cwd": "${workspaceFolder}",
+            "type": "reactnative",
+            "request": "launch",
+            "platform": "ios",
+            "sourceMaps": true,
+            "outDir": "${workspaceRoot}/.vscode/.react",
+            "runArguments": ["--simulator=iPhone 11", "--scheme=BatavoSeeds Internal"],
+            "preLaunchTask": "Configure Environment"
+        },
+        {
+            "name": "Debug iOS Staging",
+            "cwd": "${workspaceFolder}",
+            "type": "reactnative",
+            "request": "launch",
+            "platform": "ios",
+            "sourceMaps": true,
+            "outDir": "${workspaceRoot}/.vscode/.react",
+            "runArguments": ["--simulator=iPhone Xʀ", "--scheme=BatavoSeeds Staging"],
+            "preLaunchTask": "Configure Environment",
+            "debugConfigurations": [
+                {
+                    "args": [
+                        "-FIRDebugEnabled",
+                        "FIRDebugEnabled"
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Debug iOS Development 8",
+            "cwd": "${workspaceFolder}",
+            "type": "reactnative",
+            "request": "launch",
+            "platform": "ios",
+            "sourceMaps": true,
+            "outDir": "${workspaceRoot}/.vscode/.react",
+            "runArguments": ["--simulator=iPhone 11", "--scheme=BatavoSeeds Development"],
+            "preLaunchTask": "Configure Environment",
+            "debugConfigurations": [
+                {
+                    "args": [
+                        "-FIRDebugEnabled",
+                        "FIRDebugEnabled"
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Debug iOS Development 11",
+            "cwd": "${workspaceFolder}",
+            "type": "reactnative",
+            "request": "launch",
+            "platform": "ios",
+            "sourceMaps": true,
+            "outDir": "${workspaceRoot}/.vscode/.react",
+            "runArguments": ["--simulator=iPhone 11 Pro Max", "--scheme=BatavoSeeds Development"],
+            "preLaunchTask": "Configure Environment"
+        },
+        {
+            "name": "Debug iPad Internal",
+            "program": "${workspaceRoot}/.vscode/launchReactNative.js",
+            "type": "reactnative",
+            "request": "launch",
+            "platform": "ios",
+            "sourceMaps": true,
+            "outDir": "${workspaceRoot}/.vscode/.react",
+            "runArguments": ["--simulator=iPad Pro (10.5-inch)", "--scheme=BatavoSeeds Internal"]
+        },
+        {
+            "name": "Attach to packager",
+            "program": "${workspaceRoot}/.vscode/launchReactNative.js",
+            "type": "reactnative",
+            "request": "attach",
+            "sourceMaps": true,
+            "outDir": "${workspaceRoot}/.vscode/.react"
+        },
+        {
+            "name": "Debug in Exponent",
+            "program": "${workspaceRoot}/.vscode/launchReactNative.js",
+            "type": "reactnative",
+            "request": "launch",
+            "platform": "exponent",
+            "sourceMaps": true,
+            "outDir": "${workspaceRoot}/.vscode/.react"
+        }
+    ]
+}

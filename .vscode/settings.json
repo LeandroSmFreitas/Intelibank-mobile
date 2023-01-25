@@ -1,0 +1,41 @@
+{
+  "[javascript]": {
+    "editor.formatOnSave": true
+  },
+  // "editor.fontFamily": "Fira Code",
+  "editor.fontLigatures": true,
+  "editor.formatOnSave": true,
+  "editor.maxTokenizationLength": 1000000,
+  "explorer.confirmDelete": false,
+  "explorer.confirmDragAndDrop": false,
+  "fileheader.Author": "Deividi Cavarzan",
+  "fileheader.LastModifiedBy": "Deividi Cavarzan",
+  "git.autofetch": true,
+  "git.confirmSync": false,
+  "git.enableSmartCommit": true,
+  "javascript.implicitProjectConfig.checkJs": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "prettier.arrowParens": "always",
+  "prettier.jsxBracketSameLine": true,
+  "prettier.printWidth": 150,
+  "prettier.proseWrap": "preserve",
+  "prettier.semi": true,
+  "prettier.singleQuote": true,
+  "prettier.tabWidth": 4,
+  "prettier.trailingComma": "none",
+  "search.useIgnoreFiles": true,
+  "typescript.implementationsCodeLens.enabled": true,
+  "typescript.referencesCodeLens.enabled": true,
+  "workbench.editor.enablePreview": false,
+  "java.errors.incompleteClasspath.severity": "ignore",
+  "search.exclude": {
+    "**/node_modules": false
+  },
+  "java.configuration.updateBuildConfiguration": "disabled",
+  "files.exclude": {
+    "**/.classpath": true,
+    "**/.project": true,
+    "**/.settings": true,
+    "**/.factorypath": true
+  }
+}

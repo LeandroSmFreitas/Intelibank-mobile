@@ -1,0 +1,53 @@
+{
+  "compilerOptions": {
+    /* Basic Options */
+    "target": "esnext",
+    "module": "esnext",
+    "jsx": "react-native",
+    "sourceMap": true,
+    "strict": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true /* Report errors on unused parameters. */,
+    "noImplicitReturns": true /* Report error when not all code paths in function return a value. */,
+    "noImplicitAny": false,
+    "allowJs": true,
+    "keyofStringsOnly": true,
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "baseUrl": "src",
+    "paths": {
+      "/*": ["src/*"]
+    },
+    "plugins": [
+      {
+        "name": "typescript-styled-plugin",
+        "lint": {
+          "validProperties": [
+            "padding-vertical",
+            "padding-horizontal",
+            "margin-vertical",
+            "margin-horizontal"
+          ]
+        }
+      }
+    ],
+    "typeRoots": ["types", "node_modules/@types"],
+    "allowSyntheticDefaultImports": true,
+    "suppressImplicitAnyIndexErrors": true,
+    "sourceRoot": "./src",
+    "esModuleInterop": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+
+    "isolatedModules": true,
+    "lib": ["es6", "es2015", "es2016", "es2017", "esnext"],
+    "noEmit": true
+  },
+  "include": ["src"],
+  "exclude": [
+    "node_modules",
+    "babel.config.js",
+    "metro.config.js",
+    "jest.config.js"
+  ]
+}
